@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: MyString
+  impact: MyString
+  currency: MyString
+  time: MyString
+  name: MyString
+  actual: MyString
+  forecast: MyString
+  previous: MyString
+
+two:
+  date: MyString
+  impact: MyString
+  currency: MyString
+  time: MyString
+  name: MyString
+  actual: MyString
+  forecast: MyString
+  previous: MyString
