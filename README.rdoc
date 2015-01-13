@@ -1,28 +1,10 @@
-== README
+== Forex Economic Calendar API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This API is used for retrieving the current week's economic events from dailyfx.com/calendar. 
+The data is scraped using the Mechanize Gem.
 
-Things you may want to cover:
+Sample GET Requests
+/api/events.json    //gets all the week's events (default limit of 25)
+/api/events.json?page_size=100      //gets all the week's events (limit of 100)
+/api/events.json?date=Jan11.2015    //gets economic events on Jan11.2015 (default limit of 25)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
